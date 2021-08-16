@@ -1,48 +1,75 @@
 <!doctype html>
 <html>
 <head>
-<title>코딩배우기30일챌린지</title>
-<meta charset="utf-8">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TPTSNSPN7B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <title>코딩배우기30일챌린지</title>
+  <meta charset="utf-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TPTSNSPN7B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-TPTSNSPN7B');
-</script>
+    gtag('config', 'G-TPTSNSPN7B');
+  </script>
+  <style>
+    body{
+      margin-left:0px;
+    }
+    h1 {
+      font-size:60px;
+      text-align:center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    #grid ol{
+      border-right:1px solid gray;
+      width:79px;
+      padding-left:34px;
+      padding-top:21px;
+      padding-right:10px;
+      margin:0px;
+    }
+    a{
+      text-decoration:none;
+      color:black;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns:150px 1fr;
+    }
+  </style>
 </head>
 
 <body>
   <h1><a href="index.html">코딩일지</a></h1>
-  <ul>
-    <li><a href="1.html" target="_blank">1.코딩1일차</a></li>
-    <li><a href="2.html" target="_blank">2.코딩2일차</a></li>
-    <li><a href="3.html" target="_blank">3.코딩3일차</a></li>
-  </ul><br><br>
-  <h1>가족관계</h1>
-  <ol>
-    <li><input type = checkbox>장은지</li>
-    <li><a href=https://blog.naver.com/oiop0121 target="_blank" title=투자탐구생>
-    <input type = checkbox>장영은</a></li>
-  </ol><br><br><br>
-<h2>코딩1일차-21.08.14.SAT</h2><br>
-<p>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/LVLHprUg-PM"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-<img src="캡처.PNG" width=50%>
-<p>장영은 <strong>코딩<u>1일</u></strong>차다.<br>
-이게그래서 뭐 어떻게 지금은 배부르다.<br>월요일에 회사안가서 너무 좋다.</p>
-<p>피태그랑 비알태그랑 뭐가 좋은지 그거는 그때그떄 다르지.<br>
-피태그를 쓰면 단락이라는 정보를 더 잘주는거야</p>
-<p>지금시각 12:00 새벽이 지나가고있다.<br>재미있다.<br>이걸로 뭐를 만들어볼까<br>
-나는 생각중이다.</p>
-<p>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" target="_blank">코딩1일차</a></li>
+      <li><a href="2.html" target="_blank">코딩2일차</a></li>
+      <li><a href="3.html" target="_blank">코딩3일차</a></li>
+    </ol>
+    <div>
+      <h2>코딩1일차-21.08.14.SAT</h2>
+      <p>
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/LVLHprUg-PM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>
+      <img src="캡처.PNG" width=50%>
+      <p>장영은 <strong>코딩<u>1일</u></strong>차다.<br>
+      이게그래서 뭐 어떻게 지금은 배부르다.<br>월요일에 회사안가서 너무 좋다.</p>
+      <p>피태그랑 비알태그랑 뭐가 좋은지 그거는 그때그떄 다르지.<br>
+      피태그를 쓰면 단락이라는 정보를 더 잘주는거야</p>
+      <p>지금시각 12:00 새벽이 지나가고있다.<br>재미있다.<br>이걸로 뭐를 만들어볼까<br>
+      나는 생각중이다.</p>
+      <p>
+    </div>
+  </div>
+
   <div id="disqus_thread"></div>
 <script>
     /**
@@ -76,5 +103,6 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
 </body>
 </html>
